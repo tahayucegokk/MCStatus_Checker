@@ -51,19 +51,18 @@ function createJavaUuid($striped) {
     curl_close($ch);
 
     if ($http_code == 204) {
-        echo json_encode(array("name" => $username, "status" => "Offline", "id" => offlinePlayerUuid($username)), JSON_PRETTY_PRINT);
+        echo json_encode(array("name" => $username, "status" => "paid", "id" => offlinePlayerUuid($username)), JSON_PRETTY_PRINT);
 
     } else if ($http_code == 200) {
-        echo json_encode(array("name" => $result['name'] , "status" => "Online" , "id" => $result['id']),  JSON_PRETTY_PRINT);
+        echo json_encode(array("name" => $result['name'] , "status" => "crack" , "id" => $result['id']),  JSON_PRETTY_PRINT);
     }
 
 } else {
   echo '
  // *******************************************************************************************/
  // * MojangAPI.                                                                              */
- // * @see       https://trmcsg.com - Restful API for Mojang Services                         */
+ // * This PHP script checks whether a Minecraft user is a (paid) user or a (cracked) user    */
  // * @author    Taha Yücegök - <tyucegok@gmail.com>                                          */
- // * @copyright 2022 - 2023 Taha Yücegök                                                     */
  // * @license   https://github.com/tahayucegokk/MojangAPI/blob/main/LICENSE MIT License      */
  // * @// NOTE:                                                                               */
  // * Any distribution of this program may have legal consequences.                           */
