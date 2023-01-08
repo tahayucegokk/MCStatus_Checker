@@ -15,7 +15,7 @@ To use the script, simply make a GET request to /minecraft-account-checker.php w
 For example:
 
 ```
-/minecraft-account-checker.php?username=Notch
+/status_check.php?username=Notch
 ```
 
 ```
