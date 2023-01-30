@@ -63,7 +63,6 @@ function createJavaUuid($striped) {
  // * MojangAPI.                                                                              */
  // * This PHP script checks whether a Minecraft user is a (paid) user or a (cracked) user    */
  // * @author    Taha Yücegök - <tyucegok@gmail.com>                                          */
- // * @license   https://github.com/tahayucegokk/MojangAPI/blob/main/LICENSE MIT License      */
  // * @// NOTE:                                                                               */
  // * Any distribution of this program may have legal consequences.                           */
  // *******************************************************************************************/';
